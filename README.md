@@ -44,11 +44,11 @@ Asteroids-Game-/
 │
 ├── source/                # D source code
 ├── assets/                # Sprites, images, audio
-├── .resources.json        # Resource manifest loaded at startup
+├── resources.json         # Resource manifest loaded at startup
 ├── dub.json               # DUB build configuration
 ├── README.md              # This file
 └── media/
-    └── Asteroids.mp4      # Gameplay demo video
+└── Asteroids.mp4          # Gameplay demo video
 ```
 
 
