@@ -1,0 +1,13 @@
+{
+"filepath":"./images/assets/sprites.bmp",
+  "format":{
+    	"width"		: 256,
+    	"height"		: 180,
+    	"tileWidth"	: 128,
+    	"tileHeight"	: 180
+  },
+  "frames":{
+    	"object": [0],
+      "fire": [1]
+  }
+}

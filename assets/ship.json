@@ -1,0 +1,13 @@
+{
+"filepath":"./images/assets/ship.bmp",
+  "format":{
+    	"width"		: 1024,
+    	"height"		: 512,
+    	"tileWidth"	: 512,
+    	"tileHeight"	: 512
+  },
+  "frames":{
+    	"object": [0],
+      "fire": [1]
+  }
+}

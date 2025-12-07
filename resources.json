@@ -1,0 +1,26 @@
+{
+"title": "Asteroids",
+"WindowSize":[640,480],
+"WorldSize":[1000, 1000],
+"Scene":{
+    "Background":"./assets/background.bmp",
+    "Sprites":{
+      "ship":"./assets/ship.bmp",
+      "asteroid":"./assets/sprites.bmp",
+      "missile": "./assets/vertical_bullet_simple.bmp"
+    },
+    "AnimationData":{
+      "asteroid": "./assets/sprites.json",
+      "ship": "./assets/ship.json"},
+    "AudioData":{
+      "explosion": "./assets/Boom3.wav",
+      "shoot": "./assets/Shoot19.wav"
+    },
+    "GameObjects":{
+      "world":{"initial_x": 210, "initial_y": 290, "width": 640, "height": 480},
+      "asteroid":{"num":4, "lower_x1":30, "upper_x1":120, "lower_x2":450, "upper_x2":610, "lower_y1":30, "upper_y1":120, "lower_y2":350, "upper_y2":450, "width": 60, "height": 80, "initial_transform": [0, 0, 128, 180]},
+      "ship":{"initial_x": 500, "initial_y": 500, "width": 50, "height": 50, "initial_transform":[0, 0, 512, 512]},
+      "missile":{"width":20, "height":30}
+    }
+  }
+}
