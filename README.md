@@ -1,6 +1,6 @@
 # 🚀 Asteroids — Modern Remake (D Language + SDL3)
 
-[![Asteroids Gameplay]](./media/Asteroids.mp4)
+[![Asteroids Gameplay]](./Asteroids.mp4)
 
 A modern re-implementation of the classic **1979 Asteroids arcade game**, built from scratch using the **D Programming Language**, **SDL3**, and a fully custom game engine.  
 This project demonstrates game architecture, rendering, resource management, scene systems, and real-time gameplay programming.
