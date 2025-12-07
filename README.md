@@ -39,15 +39,17 @@ This project demonstrates game architecture, rendering, resource management, sce
 
 ## 📁 Project Structure
 
+```
 Asteroids-Game-/
 │
-├── source/ # D source code
-├── assets/ # Sprites, images, audio
-├── .resources.json # Resource manifest loaded at startup
-├── dub.json # DUB build configuration
-├── README.md # This file
+├── source/                # D source code
+├── assets/                # Sprites, images, audio
+├── .resources.json        # Resource manifest loaded at startup
+├── dub.json               # DUB build configuration
+├── README.md              # This file
 └── media/
-└── Asteroids.mp4 # Gameplay demo video
+    └── Asteroids.mp4      # Gameplay demo video
+```
 
 
 ---
@@ -61,8 +63,9 @@ Asteroids-Game-/
 
 ### Run the game
 
+```
 dub -- "resources.json"
-
+```
 ---
 
 ## 🧪 Technical Highlights
